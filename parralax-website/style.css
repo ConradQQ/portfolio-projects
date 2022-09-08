@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+.pimg1 {
+    background-image: url(./imgs/ethan-hoover-z5E646SbqBc-unsplash.jpg);
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url(./imgs/kaiju-philly.jpg);
+    min-height: 600px;
+}
+.pimg3 {
+    background-image: url(./imgs/fredy-martinez-ou3fG2zWbcs-unsplash.jpg);
+    min-height: 600px;
+}
+.section {
+    text-align: center;
+}
+.section-light {
+    background-color: white;
+    color: black;
+}
+.section-dark {
+    padding: 20px;
+    background-color: #282e34;
+    color: #ddd;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext, .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+.border {
+    padding: 20px 20px;
+
+}
+.ptext, .border.trans {
+    background-color: transparent;
+}
